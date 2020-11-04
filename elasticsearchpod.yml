@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: elasticsearch
+  labels:
+    role: myrole
+spec:
+  containers:
+    - name: es
+      image: phenompeople/elasticsearch
